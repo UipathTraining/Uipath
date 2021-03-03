@@ -6,7 +6,9 @@
     "UiPath.Excel.Activities": "[2.9.5]",
     "UiPath.Mail.Activities": "[1.9.5]",
     "UiPath.System.Activities": "[20.10.3]",
-    "UiPath.UIAutomation.Activities": "[20.10.9]"
+    "UiPath.UIAutomation.Activities": "[20.10.9]",
+    "UiPath.UIAutomationNext.Activities": "[20.6.0-preview]",
+    "UipathLib": "[1.0.1]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -14,6 +16,7 @@
   "studioVersion": "20.10.5.0",
   "projectVersion": "1.0.0",
   "runtimeOptions": {
+    "exceptionHandlerWorkflow": "LibraryExample.xaml",
     "autoDispose": false,
     "isPausable": true,
     "requiresUserInteraction": true,
@@ -37,7 +40,7 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": false
+    "modernBehavior": true
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
